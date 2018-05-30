@@ -14,7 +14,7 @@ $my_str = "World";
 $my_tab = array("zero", "un", "deux");
 $my_hash = array("key1" => "val1", "key2" => "val2");
 
-//echo "$my_var\n$my_str";
+echo "$my_var\n$my_str";
 
 $result = "21" + "21";
 echo "$result\n";
@@ -31,6 +31,6 @@ print_r($my_tab);
 
 echo my_add("36", "6");
 
-if ($my_tab
+$my_tab = explode(";", "zero;und;deux");
 
 ?>
